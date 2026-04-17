@@ -1,0 +1,38 @@
+{
+  "id": "antics-and-rolls-macros",
+  "title": "Antics & Rolls: Macros",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "url": "https://github.com/GabeAntics/antics-and-rolls-macros",
+  "manifest": "https://raw.githubusercontent.com/GabeAntics/antics-and-rolls-macros/main/module.json",
+  "download": "https://github.com/GabeAntics/antics-and-rolls-macros/releases/download/1.0.0/module.zip",
+  "bugs": "https://github.com/GabeAntics/antics-and-rolls-macros/issues",
+  "description": "<p>A collection of macros made by Gabe from Antics &amp; Rolls. Support me on Patreon: https://www.patreon.com/c/anticsandrolls</p>",
+  "authors": [
+    {
+      "name": "Gabriel Plante",
+      "url": "https://www.patreon.com/c/anticsandrolls",
+      "discord": "Kaallis",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "ar-macros",
+      "label": "Antics & Rolls: Macros",
+      "path": "packs/ar-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
